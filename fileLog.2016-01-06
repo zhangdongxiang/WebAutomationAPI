@@ -1,0 +1,128 @@
+2016-01-06 18:01:41 [TestNG]-[INFO] Using Firefox
+2016-01-06 18:01:41 [TestNG]-[INFO] Started BrowserEmulator
+2016-01-06 18:01:42 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:01:43 [TestNG]-[INFO] Opened url http://192.168.30.153/appadmin/user/index.html
+2016-01-06 18:01:44 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:01:44 [TestNG]-[INFO] Found element //input[@id='username']
+2016-01-06 18:01:44 [TestNG]-[INFO] Found desired element //input[@id='username']
+2016-01-06 18:01:44 [TestNG]-[INFO] Type admin@qq.com at //input[@id='username']
+2016-01-06 18:01:44 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:01:45 [TestNG]-[INFO] Found element //input[@id='password']
+2016-01-06 18:01:45 [TestNG]-[INFO] Found desired element //input[@id='password']
+2016-01-06 18:01:45 [TestNG]-[INFO] Type 123456 at //input[@id='password']
+2016-01-06 18:01:45 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:01:45 [TestNG]-[INFO] Found element //*[@id='myform']/div[2]/input
+2016-01-06 18:01:45 [TestNG]-[INFO] Found desired element //*[@id='myform']/div[2]/input
+2016-01-06 18:01:47 [TestNG]-[INFO] Clicked //*[@id='myform']/div[2]/input
+2016-01-06 18:01:47 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:01:47 [TestNG]-[INFO] Found element //img[@src='/images/jiahao.png']
+2016-01-06 18:01:47 [TestNG]-[INFO] Found desired element //img[@src='/images/jiahao.png']
+2016-01-06 18:01:47 [TestNG]-[INFO] Clicked //img[@src='/images/jiahao.png']
+2016-01-06 18:01:52 [TestNG]-[INFO] Pause 5000 ms
+2016-01-06 18:01:53 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:05:44 [TestNG]-[INFO] Using Firefox
+2016-01-06 18:05:44 [TestNG]-[INFO] Started BrowserEmulator
+2016-01-06 18:05:45 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:05:46 [TestNG]-[INFO] Opened url http://192.168.30.153/appadmin/user/index.html
+2016-01-06 18:05:46 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:05:46 [TestNG]-[INFO] Found element //input[@id='username']
+2016-01-06 18:05:46 [TestNG]-[INFO] Found desired element //input[@id='username']
+2016-01-06 18:05:47 [TestNG]-[INFO] Type admin@qq.com at //input[@id='username']
+2016-01-06 18:05:47 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:05:47 [TestNG]-[INFO] Found element //input[@id='password']
+2016-01-06 18:05:47 [TestNG]-[INFO] Found desired element //input[@id='password']
+2016-01-06 18:05:47 [TestNG]-[INFO] Type 123456 at //input[@id='password']
+2016-01-06 18:05:48 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:05:48 [TestNG]-[INFO] Found element //*[@id='myform']/div[2]/input
+2016-01-06 18:05:48 [TestNG]-[INFO] Found desired element //*[@id='myform']/div[2]/input
+2016-01-06 18:05:49 [TestNG]-[INFO] Clicked //*[@id='myform']/div[2]/input
+2016-01-06 18:05:50 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:05:50 [TestNG]-[INFO] Found element //a[@title='名片扫描管理']
+2016-01-06 18:05:50 [TestNG]-[INFO] Found desired element //a[@title='名片扫描管理']
+2016-01-06 18:05:50 [TestNG]-[INFO] Clicked //a[@title='名片扫描管理']
+2016-01-06 18:05:55 [TestNG]-[INFO] Pause 5000 ms
+2016-01-06 18:05:55 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:05:55 [TestNG]-[INFO] Found element //span[text()='无效']
+2016-01-06 18:05:55 [TestNG]-[INFO] Found desired element //span[text()='无效']
+2016-01-06 18:05:56 [TestNG]-[INFO] Clicked //span[text()='无效']
+2016-01-06 18:05:57 [TestNG]-[INFO] Pause 1000 ms
+2016-01-06 18:05:57 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:06:30 [TestNG]-[INFO] Using Firefox
+2016-01-06 18:06:31 [TestNG]-[INFO] Started BrowserEmulator
+2016-01-06 18:06:31 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:06:32 [TestNG]-[INFO] Opened url http://192.168.30.153/appadmin/user/index.html
+2016-01-06 18:06:33 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:06:33 [TestNG]-[INFO] Found element //input[@id='username']
+2016-01-06 18:06:33 [TestNG]-[INFO] Found desired element //input[@id='username']
+2016-01-06 18:06:33 [TestNG]-[INFO] Type admin@qq.com at //input[@id='username']
+2016-01-06 18:06:33 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:06:33 [TestNG]-[INFO] Found element //input[@id='password']
+2016-01-06 18:06:33 [TestNG]-[INFO] Found desired element //input[@id='password']
+2016-01-06 18:06:34 [TestNG]-[INFO] Type 123456 at //input[@id='password']
+2016-01-06 18:06:34 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:06:34 [TestNG]-[INFO] Found element //*[@id='myform']/div[2]/input
+2016-01-06 18:06:34 [TestNG]-[INFO] Found desired element //*[@id='myform']/div[2]/input
+2016-01-06 18:06:36 [TestNG]-[INFO] Clicked //*[@id='myform']/div[2]/input
+2016-01-06 18:06:36 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:06:36 [TestNG]-[INFO] Found element //a[@title='名片扫描管理']
+2016-01-06 18:06:36 [TestNG]-[INFO] Found desired element //a[@title='名片扫描管理']
+2016-01-06 18:06:36 [TestNG]-[INFO] Clicked //a[@title='名片扫描管理']
+2016-01-06 18:06:41 [TestNG]-[INFO] Pause 5000 ms
+2016-01-06 18:06:42 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:06:42 [TestNG]-[INFO] Found element //span[text()='无效']
+2016-01-06 18:06:42 [TestNG]-[INFO] Found desired element //span[text()='无效']
+2016-01-06 18:06:42 [TestNG]-[INFO] Clicked //span[text()='无效']
+2016-01-06 18:06:43 [TestNG]-[INFO] Pause 1000 ms
+2016-01-06 18:06:44 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:20:51 [TestNG]-[INFO] Using Firefox
+2016-01-06 18:20:52 [TestNG]-[INFO] Started BrowserEmulator
+2016-01-06 18:20:52 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:20:53 [TestNG]-[INFO] Opened url http://192.168.30.153/appadmin/user/index.html
+2016-01-06 18:20:54 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:20:54 [TestNG]-[INFO] Found element //input[@id='username']
+2016-01-06 18:20:54 [TestNG]-[INFO] Found desired element //input[@id='username']
+2016-01-06 18:20:54 [TestNG]-[INFO] Type admin@qq.com at //input[@id='username']
+2016-01-06 18:20:54 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:20:54 [TestNG]-[INFO] Found element //input[@id='password']
+2016-01-06 18:20:54 [TestNG]-[INFO] Found desired element //input[@id='password']
+2016-01-06 18:20:54 [TestNG]-[INFO] Type 123456 at //input[@id='password']
+2016-01-06 18:20:55 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:20:55 [TestNG]-[INFO] Found element //*[@id='myform']/div[2]/input
+2016-01-06 18:20:55 [TestNG]-[INFO] Found desired element //*[@id='myform']/div[2]/input
+2016-01-06 18:20:57 [TestNG]-[INFO] Clicked //*[@id='myform']/div[2]/input
+2016-01-06 18:20:57 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:20:57 [TestNG]-[INFO] Found element //a[@title='名片扫描管理']
+2016-01-06 18:20:57 [TestNG]-[INFO] Found desired element //a[@title='名片扫描管理']
+2016-01-06 18:21:01 [TestNG]-[INFO] Clicked //a[@title='名片扫描管理']
+2016-01-06 18:21:06 [TestNG]-[INFO] Pause 5000 ms
+2016-01-06 18:21:06 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:21:06 [TestNG]-[INFO] Found element //span[text()='无效']
+2016-01-06 18:21:06 [TestNG]-[INFO] Found desired element //span[text()='无效']
+2016-01-06 18:21:07 [TestNG]-[INFO] Clicked //span[text()='无效']
+2016-01-06 18:21:08 [TestNG]-[INFO] Pause 1000 ms
+2016-01-06 18:22:18 [TestNG]-[INFO] Using Firefox
+2016-01-06 18:22:18 [TestNG]-[INFO] Started BrowserEmulator
+2016-01-06 18:22:19 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:22:20 [TestNG]-[INFO] Opened url http://192.168.30.153/appadmin/user/index.html
+2016-01-06 18:22:21 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:22:21 [TestNG]-[INFO] Found element //input[@id='username']
+2016-01-06 18:22:21 [TestNG]-[INFO] Found desired element //input[@id='username']
+2016-01-06 18:22:21 [TestNG]-[INFO] Type admin@qq.com at //input[@id='username']
+2016-01-06 18:22:21 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:22:21 [TestNG]-[INFO] Found element //input[@id='password']
+2016-01-06 18:22:21 [TestNG]-[INFO] Found desired element //input[@id='password']
+2016-01-06 18:22:21 [TestNG]-[INFO] Type 123456 at //input[@id='password']
+2016-01-06 18:22:22 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:22:22 [TestNG]-[INFO] Found element //*[@id='myform']/div[2]/input
+2016-01-06 18:22:22 [TestNG]-[INFO] Found desired element //*[@id='myform']/div[2]/input
+2016-01-06 18:22:24 [TestNG]-[INFO] Clicked //*[@id='myform']/div[2]/input
+2016-01-06 18:22:24 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:22:24 [TestNG]-[INFO] Found element //a[@title='名片扫描管理']
+2016-01-06 18:22:24 [TestNG]-[INFO] Found desired element //a[@title='名片扫描管理']
+2016-01-06 18:22:25 [TestNG]-[INFO] Clicked //a[@title='名片扫描管理']
+2016-01-06 18:22:30 [TestNG]-[INFO] Pause 5000 ms
+2016-01-06 18:22:31 [TestNG]-[INFO] Pause 500 ms
+2016-01-06 18:22:31 [TestNG]-[INFO] Found element //span[text()='无效']
+2016-01-06 18:22:31 [TestNG]-[INFO] Found desired element //span[text()='无效']
+2016-01-06 18:22:31 [TestNG]-[INFO] Clicked //span[text()='无效']
+2016-01-06 18:22:32 [TestNG]-[INFO] Pause 1000 ms

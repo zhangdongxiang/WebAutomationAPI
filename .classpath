@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-java-2.44.0.jar" sourcepath="E:/Selenium/selenium-java-2.44.0-srcs.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.44.0.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.8.6.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://testng.org/javadocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jxl.jar"/>
+	<classpathentry kind="lib" path="lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/json.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

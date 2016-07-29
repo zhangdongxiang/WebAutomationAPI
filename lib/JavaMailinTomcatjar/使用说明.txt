@@ -1,0 +1,25 @@
+经过一个上午的折腾,终于能够发送邮件了.主要是jar包的处理.下面是附件的使用说明.欢迎大家交流.
+
+-----------------------------------------------------------------------------------------------
+
+将文件夹中5个jar包放入lib下即可.
+在实际开发中,需要避免不同版本的jar包冲突.
+下面是我的开发经验(针对当前具体环境而言):
+
+(1) 
+// SimpleMail email = new SimpleMail();
+// email.setTLS(true);
+第二行代码如果不注释起来,会导致发送邮件失败.我在apache官方文档(版本1.2)说这个方法已经过失了.
+用新替代的方法,目前这个版本不支持.最新的jar包是版本commons-email-1.3.jar.但是apache官方不能下载.
+
+(2) 
+mail.jar和activation.jar的作用
+在Tomcat环境下如果没有这个两个jar包会报java.lang.NoClassDefFoundError:javax/mail/Message的错误。
+网上提供的下载地址:
+mail.jar 下载地址： http://java.sun.com/products/javamail/downloads/index.html(能进到oracle对应的页面)
+activation.jar 下载地址：http://java.sun.com/products/javabeans/jaf/downloads/index.html(此页面好像已经变更了)
+这个两个包到底是做什么的我目前也不太清楚
+
+(3) apache mail官方文档
+http://commons.apache.org/email/apidocs/index.html
+
