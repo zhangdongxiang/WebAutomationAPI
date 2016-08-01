@@ -7,26 +7,49 @@ import org.json.JSONObject;
 
 import com.oradt.test.tasks.APITask;
 
-import bsh.ParseException;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
 public class APIFunc {
 	private static Logger log = Logger.getLogger(APITask.class.getName());
-	
+    static String sql = null;  
+    static DBHelper db1 = null;  
+    static ResultSet ret = null;
+    
     /**
-     * 标记Case fail
+     * 读取数据库信息
      * 
+     * @param sql
+     *            数据库语句
+     * @param fieldName
+     *            数据库字段名
+     * @return valueOfField 
+     *            数据库字段值
      */
-	public static void markCaseFail(){
-		assert(false);		
+	public static String getFieldInfo(String sql, String fieldName){
+        String strFieldValue = null;
+		db1 = new DBHelper(sql);//创建DBHelper对象  
+  
+        try {  
+            ret = db1.pst.executeQuery();//执行语句，得到结果集  
+            while (ret.next()) {  
+            	strFieldValue = ret.getString(fieldName);   
+//                System.out.println(strFieldValue + "\t");  
+            }//获取数据  
+            ret.close();  
+            db1.close();//关闭连接  
+        } catch (SQLException e) {  
+            e.printStackTrace();  
+        }  
+		return strFieldValue;
 	}
 
 	public static JSONObject loadJson(String strJSON){
@@ -41,25 +64,29 @@ public class APIFunc {
 		return jsonobj;
 	}
 	
-	public static void parseJson(String strJSON){ 		
+    /**
+     * 分析http请求返回数据是否正确，根据status判断
+     * 
+     * @param strJSON
+     *            输入Json结构数据
+     */
+	public static boolean parseJson(String strJSON){ 
+		boolean result = false;
         try {
-        	//{"head":{"status":1,"error":{"errorcode":100007,"description":"miss access token"}}}
-        	
         	JSONObject jsonobj = loadJson(strJSON);
-        	
 			String head = jsonobj.getString("head");
 			jsonobj = loadJson(head);
-			String status = jsonobj.getString("status");
-			
-			if(Integer.valueOf(status).intValue() == 1){
-				System.out.println("status : " + status);
-//				markCaseFail();
+			String status = jsonobj.getString("status");			
+			if(Integer.valueOf(status).intValue() == 0){
+//				System.out.println("fail status : " + status);				
+				result = true;
 			}
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			System.out.println("can not find the field ！！！！");
 //			e.printStackTrace();
-		} 
+		}
+		return result; 
 	}
 	
     /**
@@ -176,4 +203,5 @@ public class APIFunc {
     }    
 
 
+    
 }
